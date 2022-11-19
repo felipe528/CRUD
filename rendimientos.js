@@ -26,7 +26,7 @@ if (DatosTabla.length > 0){
    }
    document.getElementById("datos").innerHTML = dataFila
 }
-
+// funcion para derivar al formulario para insertar los datos
 }
  function nexoboton (idform){
     localStorage.setItem("idform", JSON.stringify(idform))
