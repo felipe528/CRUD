@@ -11,7 +11,7 @@ var idform = localStorage.getItem("idform")
  }
 
  cargarPagina ()
-
+// crear arreglo y enavirlo desde localstorage
  function guardar(){
    console.log ("presiono guardar")
    var ObjRsporte = JSON.stringify({
